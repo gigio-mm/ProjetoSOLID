@@ -9,14 +9,24 @@ public class ServicoDePedido {
     private final IReservadorDeEstoque reservadorDeEstoque;
     private final IGatewayDePagamento gatewayDePagamento;
     private final IRepositorioDePedidos repositorioDePedidos;
+    private final IPedidoRepository pedidoRepository;
+    private final MetodoDePagamento metodoDePagamento;
+    private final IServicoDeNotificacao servicoDeNotificacao;
 
     public ServicoDePedido(
             IReservadorDeEstoque reservadorDeEstoque,
             IGatewayDePagamento gatewayDePagamento,
-            IRepositorioDePedidos repositorioDePedidos) {
+            IRepositorioDePedidos repositorioDePedidos,
+            IPedidoRepository pedidoRepository,
+            MetodoDePagamento metodoDePagamento,
+            IServicoDeNotificacao servicoDeNotificacao) {
+
         this.reservadorDeEstoque = reservadorDeEstoque;
         this.gatewayDePagamento = gatewayDePagamento;
         this.repositorioDePedidos = repositorioDePedidos;
+        this.pedidoRepository = pedidoRepository;
+        this.metodoDePagamento = metodoDePagamento;
+        this.servicoDeNotificacao = servicoDeNotificacao;
     }
 
     public boolean processarPedido(Pedido pedido) {

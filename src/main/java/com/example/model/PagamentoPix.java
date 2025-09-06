@@ -1,5 +1,10 @@
 package com.example.model;
-public class PagamentoPix() implements IGatewayDePagamento {
+
+
+import com.example.model.ResultadoDoPagamento;
+import com.example.service.MetodoDePagamento;
+
+public class PagamentoPix() implements MetodoDePagamento {
     public ResultadoDoPagamento processarPagamentoPix() {
 
     }
