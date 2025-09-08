@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/22201108/README.md)
 # Projeto de E-commerce para Projetos e Arquitetura de Sistemas
 
 Este é um projeto acadêmico desenvolvido para a disciplina de **Projetos e Arquitetura de Sistemas**. O objetivo principal é projetar e implementar um sistema de software simples para um e-commerce, aplicando rigorosamente os cinco princípios SOLID de design de classes.
