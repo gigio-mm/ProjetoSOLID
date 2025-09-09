@@ -34,3 +34,4 @@ O diagrama abaixo representa a arquitetura final implementada no projeto.
 
 * Autor 1: Gigio Moura Melo
 * Autor 2: Samuel De Francesco Lima Tavares Lopes
+* Autor 3: Davi Martins Rodrigues Silva
